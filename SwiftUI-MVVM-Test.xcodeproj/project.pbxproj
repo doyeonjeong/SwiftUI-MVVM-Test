@@ -16,6 +16,7 @@
 		8F19B66F29C942C700EF6F85 /* Wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F19B66E29C942C700EF6F85 /* Wave.mp3 */; };
 		8F19B67129C942D700EF6F85 /* Stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F19B67029C942D700EF6F85 /* Stream.mp3 */; };
 		8F19B67329C9430100EF6F85 /* Ambient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F19B67229C9430100EF6F85 /* Ambient.mp3 */; };
+		8F19B67629C9436600EF6F85 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19B67529C9436600EF6F85 /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8F19B66E29C942C700EF6F85 /* Wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wave.mp3; sourceTree = "<group>"; };
 		8F19B67029C942D700EF6F85 /* Stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stream.mp3; sourceTree = "<group>"; };
 		8F19B67229C9430100EF6F85 /* Ambient.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ambient.mp3; sourceTree = "<group>"; };
+		8F19B67529C9436600EF6F85 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		8F19B66829C93C3600EF6F85 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8F19B67429C9435900EF6F85 /* Manager */,
 				8F19B66329C93B5700EF6F85 /* App */,
 				8F19B66529C93B7700EF6F85 /* Views */,
 				8F19B66629C93B7E00EF6F85 /* Models */,
@@ -136,6 +139,14 @@
 				8F19B67229C9430100EF6F85 /* Ambient.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8F19B67429C9435900EF6F85 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8F19B67529C9436600EF6F85 /* AudioManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				8F19B66C29C93F3F00EF6F85 /* MusicViewModel.swift in Sources */,
 				8F19B65829C93B4500EF6F85 /* MainView.swift in Sources */,
 				8F19B66A29C93EB000EF6F85 /* Sound.swift in Sources */,
+				8F19B67629C9436600EF6F85 /* AudioManager.swift in Sources */,
 				8F19B65629C93B4500EF6F85 /* SwiftUI_MVVM_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
