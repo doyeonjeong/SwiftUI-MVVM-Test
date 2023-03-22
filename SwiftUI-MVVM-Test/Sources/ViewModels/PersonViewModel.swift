@@ -26,7 +26,7 @@ class PersonViewModel: ObservableObject {
         people.reverse()
     }
     
-    func removeLasePerson() {
+    func removeLastPerson() {
         people.removeLast()
     }
     

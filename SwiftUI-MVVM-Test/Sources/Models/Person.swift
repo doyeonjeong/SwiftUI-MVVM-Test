@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Person {
+struct Person: Identifiable {
     var id = UUID()
     var name: String
     var email: String
