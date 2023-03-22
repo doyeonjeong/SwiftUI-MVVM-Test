@@ -1,5 +1,5 @@
 # SwiftUI-MVVM-Test
-오디오 파일을 이용한 MVVM DataFlow 파악을 위해 만들어 본 작은 예제 프로젝트
+MVVM DataFlow 파악을 위해 만들어 본 작은 예제 프로젝트
 
 ## Preview
 ![Simulator Screen Recording - iPhone 14 Pro - 2023-03-22 at 18 00 12](https://user-images.githubusercontent.com/108422901/226852305-2dde1f3c-eb58-4373-802d-398a9f864161.gif)
